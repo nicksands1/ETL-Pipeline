@@ -1,0 +1,2 @@
+# ETL-Pipeline
+This repository contains the Python script used to convert API data from CoinCap into a CSV file and store it in a Amazon S3 bucket. It also contains the .zip file needed to import the "requests" module into AWS Lambda. The tutorial for this project can be found on my Medium blog [here](https://medium.com/@nicksanders41/extracting-api-data-with-aws-lambda-and-uploading-to-amazon-s3-c15cfaa7deb9).
