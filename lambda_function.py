@@ -15,6 +15,7 @@ bucket = 'hold-data'
 def lambda_handler(event, context):
     response = requests.request("GET", url, params=payload)
     response = response.json()
+    
     for x in response['data']:
         listing = [x['symbol'],x['name'],x['priceUsd'],x['supply'],x['changePercent24Hr'],x['marketCapUsd']]
         coins.append(listing)
